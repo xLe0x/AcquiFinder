@@ -1,4 +1,4 @@
-# Google Search Scraper for Acquisition Titles
+# AcquiFinder
 
 This Python script utilizes Apify's Google Search Scraper to find acquisition titles from Crunchbase.
 
