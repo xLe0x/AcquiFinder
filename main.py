@@ -24,7 +24,9 @@ for item in client.dataset(run["defaultDatasetId"]).iterate_items():
         titles.append(res["title"])
 
 
-pattern = r"IBM acquires ([^-]+)"
+pattern = rf"{company_name} acquires ([^-]+)"
+
+print(pattern)
 
 acquisitions = findall(pattern, str(titles))
 
