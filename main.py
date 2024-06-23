@@ -26,8 +26,6 @@ for item in client.dataset(run["defaultDatasetId"]).iterate_items():
 
 pattern = rf"{company_name} acquires ([^-]+)"
 
-print(pattern)
-
 acquisitions = findall(pattern, str(titles))
 
 for acquisition in acquisitions:
