@@ -27,3 +27,8 @@ This Python script utilizes Apify's Google Search Scraper to find acquisition ti
    ```bash
    python main.py
    ```
+
+https://github.com/xLe0x/AcquiFinder/assets/112324284/fef8a1a0-ffbe-48a6-90fb-95a2986ca9b6
+
+
+
