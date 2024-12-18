@@ -16,19 +16,19 @@ This Python script utilizes Apify's Google Search Scraper to find acquisition ti
    git clone https://github.com/xLe0x/AcquiFinder.git
    cd AcquiFinder
    ```
-2. Install dependencies:
+
+1. Install dependencies:
+
    ```bash
+   python3 -m venv venv
+   source venv/bin/activate
    pip install -r requirements.txt
    ```
-   
-3. In .env file replace <YOUR_API_KEY_HERE> with your actual Apify API key.
 
-4. Run the Script and have fun
+1. In .env file replace \<YOUR_API_KEY_HERE> with your actual Apify API key.
+
+1. Run the Script and have fun
+
    ```bash
-   python main.py
+   python main.py <company_name>
    ```
-
-
-https://github.com/xLe0x/AcquiFinder/assets/112324284/69a7af2f-c3fa-4678-9ac3-28591b1c9c73
-
-
